@@ -1,7 +1,9 @@
+import { cn } from '~src/utils/cn';
+
 function App() {
 	return (
 		<>
-			<p className='text-4xl'>test</p>
+			<p className={cn('text-4xl')}>test</p>
 		</>
 	);
 }
