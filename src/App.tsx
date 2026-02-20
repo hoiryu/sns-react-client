@@ -1,9 +1,11 @@
-import { cn } from '~src/utils/cn';
+import { Button } from '~src/components/ui/button';
+import { Input } from '~src/components/ui/input';
 
 function App() {
 	return (
 		<>
-			<p className={cn('text-4xl')}>test</p>
+			<Button children='test' />
+			<Input />
 		</>
 	);
 }
